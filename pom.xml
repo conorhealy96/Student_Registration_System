@@ -18,11 +18,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-	    <groupId>com.github.conorhealy96</groupId>
-	    <artifactId>Student_Registration_System</artifactId>
-	    <version>-SNAPSHOT</version>
-	</dependency>
-        <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-core</artifactId>
             <version>1.3</version>
@@ -30,10 +25,6 @@
         </dependency>
     </dependencies>
     <distributionManagement>  
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
     </distributionManagement>  
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
