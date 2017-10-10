@@ -18,16 +18,21 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.dropbox.core</groupId>
-            <artifactId>dropbox-core-sdk</artifactId>
-            <version>3.0.4</version>
+	    <groupId>com.github.conorhealy96</groupId>
+	    <artifactId>Student_Registration_System</artifactId>
+	    <version>-SNAPSHOT</version>
+	</dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+            <version>1.3</version>
+            <scope>test</scope>
         </dependency>
-       
     </dependencies>
     <distributionManagement>  
     <repository>
-        <id>maven-repo</id>
-        <url>file://C:/Dropbox/maven</url>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
     </repository>
     </distributionManagement>  
     <properties>
